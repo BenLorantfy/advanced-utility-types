@@ -1,2 +1,2 @@
 # advanced-utility-types
-Complex utility generics for typescript
+Advanced utility generics for typescript

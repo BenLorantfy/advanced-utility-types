@@ -1,0 +1,21 @@
+{
+  "name": "advanced-utility-types",
+  "version": "2.1.0",
+  "description": "Advanced utility generics for typescript",
+  "author": "Ben Lorantfy <ben@lorantfy.com>",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "vitest --typecheck",
+    "build": "tsc",
+    "prepublish": "vitest run --typecheck && pnpm run build"
+  },
+  "keywords": ["typescript", "utility", "types"],
+  "license": "MIT",
+  "packageManager": "pnpm@10.8.1",
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.8"
+  }
+}
