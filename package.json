@@ -1,6 +1,6 @@
 {
   "name": "advanced-utility-types",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Advanced utility generics for typescript",
   "author": "Ben Lorantfy <ben@lorantfy.com>",
   "type": "module",
